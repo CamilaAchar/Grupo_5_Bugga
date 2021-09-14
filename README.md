@@ -6,6 +6,8 @@ Nuestro sitio cuenta con prestigiosas publicaciones tematicas que aportan conten
 
 Además contamos con mas de 50 fondos editoriales que contribuyen al crecimiento de nuestra base de publicaciones digitalizadas eligiendo las materias de mayor relevancia para el mundo.  
 
+Por otro lado, podrás llevarte cualquiera de los artículos que te ayudarán en tu carrera, como calculadoras, reglas métricas, compases, acuarelas, lápices, etc.
+
 Sitios de referencia 
 
 https://www.hammurabi.com.ar/
