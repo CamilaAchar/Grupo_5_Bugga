@@ -8,6 +8,7 @@ Además contamos con mas de 50 fondos editoriales que contribuyen al crecimiento
 
 Por otro lado, podrás llevarte cualquiera de los artículos que te ayudarán en tu carrera, como calculadoras, reglas métricas, compases, acuarelas, lápices, etc.
 
+
 Sitios de referencia 
 
 https://www.hammurabi.com.ar/
@@ -21,6 +22,7 @@ https://www.tematika.com/
 https://www.bookswagon.com/ 
 
 https://www.staples.com/ 
+
 
 URL a Trello
 
