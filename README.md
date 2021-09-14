@@ -6,6 +6,13 @@ Nuestro sitio cuenta con prestigiosas publicaciones tematicas que aportan conten
 
 Además contamos con mas de 50 fondos editoriales que contribuyen al crecimiento de nuestra base de publicaciones digitalizadas eligiendo las materias de mayor relevancia para el mundo.  
 
+Sitios de referencia 
 
+https://www.hammurabi.com.ar/
+https://www.cp67.com/
+https://catalogo.ebooksjuridicos.com/library
+https://www.tematika.com/
+https://www.bookswagon.com/ 
+https://www.staples.com/ 
 
 
