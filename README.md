@@ -1,4 +1,4 @@
-# grupo_5_Buugga  
+# grupo_5_Bugga  
 ¿Qué productos o servicios brindará nuestro sitio? ¿Quién será nuestra audiencia
 objetivo? ¿Cómo ajustaremos nuestra oferta a ese público?
 
