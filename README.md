@@ -11,7 +11,7 @@ Por otro lado, podrás llevarte cualquiera de los artículos que te ayudarán en
 
 Sitios de referencia 
 
-https://www.hammurabi.com.ar/ - automatic!
+https://www.hammurabi.com.ar/
 
 https://www.cp67.com/
 
