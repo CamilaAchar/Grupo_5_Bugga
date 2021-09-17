@@ -6,8 +6,12 @@ Además contamos con mas de 50 fondos editoriales que contribuyen al crecimiento
 
 Por otro lado, podrás llevarte cualquiera de los artículos que te ayudarán en tu carrera, como calculadoras, reglas métricas, compases, acuarelas, lápices, etc.
 
+# Grupo
 
-Sitios de referencia 
+El proyecto será llevado a cabo por la liga de los _webprogramadores_ compuesta por **Cami AT**, como la emperatriz del reino Front, el archienemigo del mundo gris, nuestro diseñador de la galaxia UI/UX **Santiago S.** y los gladiadores del back world, **JuL LuG**. Juntos enfrentan cualquier desafío en el universo de la web. 
+
+
+# Referencia 
 
 https://www.hammurabi.com.ar/
 
@@ -39,11 +43,9 @@ https://www.staples.com/
 Seleccionado por el carrito de compras y su navegabilidad general
 
 
-URL a Trello
+# Trello
 
 https://trello.com/b/VGiMBD6B/grupo-5
 
-# Grupo
 
-El proyecto será llevado a cabo por la liga de los _webprogramadores_ compuesta por **Cami AT**, como la emperatriz del reino Front, el archienemigo del mundo gris, nuestro diseñador de la galaxia UI/UX **Santiago S.** y los gladiadores del back world, **JuL LuG**. Juntos enfrentan cualquier desafío en el universo de la web. 
 
