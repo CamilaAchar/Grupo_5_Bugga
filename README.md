@@ -1,4 +1,4 @@
-# grupo_5_Bugga  
+# Bugga  
 
 Nuestro sitio cuenta con prestigiosas publicaciones tematicas que aportan contenidos de diversas ramas del saber, fomentando la divulgación del conocimiento en todos los paises del mundo.  
 
