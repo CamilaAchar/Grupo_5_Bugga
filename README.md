@@ -28,4 +28,4 @@ URL a Trello
 
 https://trello.com/b/VGiMBD6B/grupo-5
 
-El proyecto será llevado a cabo por la liga de los **webprogramadores** compuesta por Cami AT, como la emperatriz del reino del Front, el archienemigo del mundo gris, nuestro diseñador UI/UX Santiago S. y los gladiadores del back, JuL LuG. Juntos enfrentan cualquier desafío en el universo de la web. 
+El proyecto será llevado a cabo por la liga de los #webprogramadores compuesta por Cami AT, como la emperatriz del reino del Front, el archienemigo del mundo gris, nuestro diseñador UI/UX Santiago S. y los gladiadores del back, JuL LuG. Juntos enfrentan cualquier desafío en el universo de la web. 
