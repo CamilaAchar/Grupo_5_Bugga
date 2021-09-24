@@ -4,7 +4,7 @@ Nuestro sitio cuenta con prestigiosas publicaciones tematicas que aportan conten
 
 Además contamos con mas de 50 fondos editoriales que contribuyen al crecimiento de nuestra base de publicaciones digitalizadas eligiendo las materias de mayor relevancia para el mundo.  
 
-Además, con la compra de cada **BuggaBook** tendrás fabulosos descuentos en nuestra pestaña de *BuggaArt*, allí encontrarás todo lo necesario para poder llevar tu lectura a otro nivel.  
+Además, con la compra de cada **BuggaBook** tendrás fabulosos descuentos en nuestra sección *BuggaArt*, allí encontrarás todo lo necesario para poder llevar tu lectura a otro nivel.  
 
 Todos los artículos de esta sección son únicos e irrepetibles, de otro mundo.
 
