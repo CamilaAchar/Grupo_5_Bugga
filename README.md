@@ -53,6 +53,10 @@ Seleccionado por el carrito de compras y su navegabilidad general
 
 ---
 
+#Wireframe
+
+---
+
 # Trello
 
 https://trello.com/b/VGiMBD6B/grupo-5
