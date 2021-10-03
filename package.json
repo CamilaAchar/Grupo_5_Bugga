@@ -1,0 +1,14 @@
+{
+  "name": "bugga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+  "author": "lg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
