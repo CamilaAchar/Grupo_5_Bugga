@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="SHORTCUT ICON" href="/img/icono.png">
+</head>
+<body>
+
+    <header>
+        <img src="/img/logo.jpg" alt="logo">
+    </header>
+    <main class="main-form">
+        <form action="/register.html" method="POST" class="form">
+            <h4>Terminá de completar tus datos</h4>
+            <div class="nombre">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required minlength="2">
+            </div>
+            <div class="user">
+                <input type="user" id="user" placeholder="Nombre de Usuario" name="user" required minlength="2">
+            </div>
+            <div class="mail-userProfile">
+                <input type="email" id="mail" placeholder="E-mail" name="mail" required minlength="2">
+            </div>   
+            <div class="nacimiento">
+                <label for="nacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="nacimiento" name="nacimiento" required>
+            </div>
+            <div class="domicilio">
+                <input type="text" id="domicilio" placeholder="Domicilio" name="domicilio">
+            </div>
+
+            <div class="intereses">
+                <h4>Intereses</h4>
+                <div class="checks">
+                    <input type="checkbox" name="ficcion" value="ficcion">
+                    <label for="ficcion">Ciencia Ficción</label>
+                </div>
+                <div class="checks">
+                    <input type="checkbox" name="aventuras" value="aventuras" >
+                    <label for="aventuras">Aventuras</label>
+                </div>
+                <div class="checks">
+                    <input type="checkbox" name="romance" value="romance">
+                    <label for="romance">Romance</label>
+                </div>    
+                <div class="checks">
+                    <input type="checkbox" name="investigacion" value="investigacion">
+                    <label for="investigacion">Investigación</label>
+                </div>    
+                <div class="checks">
+                    <input type="checkbox" name="universitarios" value="universitarios">
+                    <label for="universitarios">Universitarios</label>
+                </div>
+            </div>
+            <div class="foto">
+                <label for="foto">Foto</label>
+                <input type="file" id="foto" name="foto" accept=".jpg">
+            </div>
+            <div class="passR">
+                <input type="password" id="pass" name="pass" required minlength="6" placeholder="Contraseña">
+                <input type="password" id="pass2" name="pass2" required minlength="6" placeholder="Confirmar Contraseña">
+            </div>
+
+            <div class="tarjeta">
+                
+            </div>
+
+            <div class="botones">
+                <button type="submit"><a href="home">Enviar</a></button>
+                <button type="reset">Borrar</button>
+            </div>
+
+        </form>
+    </main>
+
+
+</body>
+</html>

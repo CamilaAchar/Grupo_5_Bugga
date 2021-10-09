@@ -19,28 +19,31 @@
         <div class="logo">
             <img src="/img/logo.jpg" alt="logo comercial">
         </div>
-        <h1>Bugga</h1>
+        <h1>Bugga Store</h1>
     </header>
     <section>
-        <div class="mail">
-            <p>Email</p>
-            <i class="far fa-envelope"></i> 
-            <input type="text"> 
-        </div>
-        <div class="pass">
-            <p>Contraseña</p>
-            <i class="fas fa-lock"></i>
-            <input type="password">
-            <i class="far fa-eye-slash ver"></i>            
-        </div>
+        <form action="registro" method="POST" class="formulario">
+            <div class="mail">
+                <!-- <p>Email</p> -->
+                <i class="far fa-envelope"></i> 
+                <input type="text" placeholder="Email" minlength="2" required> 
+            </div>
+            <div class="pass">
+                <!-- <p>Contraseña</p> -->
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Contraseña" required>
+                <i class="far fa-eye-slash ver"></i>            
+            </div>
+        </form>
     </section>
     <footer>
         <div class="terminos">
-            <i class="fas fa-check-square"></i>
+            <!-- <i class="fas fa-check-square"></i> -->
+            <input type="checkbox" checked>
             <p>Estoy de acuerdo con los Términos y Condiciones</p>
         </div>
         
-        <button><a href="#login">Registrar</a></button>
+        <button><a href="userProfile">Registrar</a></button>
         
         <p>¿Ya tenes una cuenta? 
             <a href="#login">Ingresá</a>

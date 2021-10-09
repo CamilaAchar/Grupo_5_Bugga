@@ -16,28 +16,38 @@
 </head>
 <body>
     <header>
+       <!-- <div class="header"> -->
         <div class="logo">
             <img src="/img/logo.jpg" alt="logo comercial">
         </div>
-        <h1>Bugga</h1>
+        <!-- <div class="salir">
+            <i class="far fa-times-circle"></i>
+        </div> -->
+       <!-- </div>  -->
+        <!-- <div class="salir">
+           
+        </div> -->
+        <h1>Bugga Store</h1>
     </header>
     <section>
-        <div class="mail">
-            <p>Email</p>
-            <i class="far fa-envelope"></i> 
-            <input type="text"> 
-        </div>
-        <div class="pass">
-            <p>Contraseña</p>
-            <i class="fas fa-lock"></i>
-            <input type="password">
-            <i class="far fa-eye-slash ver"></i>            
-        </div>
+        <form action="register" method="POST" class="formulario">
+            <div class="mail">
+                <!-- <p>Email</p> -->
+                <i class="far fa-envelope"></i> 
+                <input type="text" placeholder="Email" required minlength="2"> 
+            </div>
+            <div class="pass">
+                <!-- <p>Contraseña</p> -->
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Contraseña" required>
+                <i class="far fa-eye-slash ver"></i>            
+            </div>
+        </form>
     </section>
     <footer>
-        <button><a href="#login">Ingresar</a></button>
+        <button type="submit"><a href="userProfile">Ingresar</a></button>
 
-        <a href="#reset">¿Olvidaste tu contraseña?</a>
+        <a href="#restablecer">¿Olvidaste tu contraseña?</a>
     </footer>
 
 

@@ -12,28 +12,34 @@ a {
     text-decoration: none;
  }
 
-.logo {
+ .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 15px;
+    align-items: center;
+ }
 
+.logo {
+    flex-grow: 8;
+    text-align: center;
+    margin: 20px 20px;
 }
 
 .logo img {
     border: solid 10px rgb(0, 197, 0);
+    width: 270px;
 }
 
 h1 {
     text-align: center;
+    width: 200px;
+    margin: 20px auto;
 }
 
-section {
+.formulario {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
-    font-weight: bold;
+    text-align: center;
 }
 
 .mail   {
@@ -57,10 +63,10 @@ section {
 .mail input {
     height: 25px;
     margin-left: -5px;
-    border-style:solid;
-    border-color: rgb(0, 197, 0);
+    border: solid 1px rgb(128, 247, 128);   
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    padding: 3px;
 }
 
 .pass   {
@@ -83,7 +89,7 @@ section {
 }
 .ver {
     position: absolute;
-    left: 195px;
+    left: 200px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; 
 }
@@ -98,11 +104,11 @@ section {
 .pass input {
     height: 25px;
     margin-left: -5px;
-    border-style:solid;
-    border-color: rgb(0, 197, 0);
+    border: solid 1px rgb(128, 247, 128);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
+    padding: 3px;
+} 
 
 footer {
     display: flex;
@@ -124,13 +130,6 @@ footer {
     text-align: left;
     margin-left: 5px;
 }
-.terminos i {
-    background-color: rgb(255, 255, 191);
-    color: rgb(0, 197, 0);
-    font-size: 15px;
-    width: 14px;
-    height: 16px;
-}
 
 footer button {
     width: 100px;
@@ -142,12 +141,142 @@ footer button {
     border-style: solid;
     border-color: rgb(0, 197, 0);
     font-size: 15px;
+    transition: background-color 1s;
 }
+
+footer button:hover {
+    background-color: rgb(77, 177, 91); 
+    border: none;
+}
+
 footer button a{
     color: rgb(255, 255, 191);
 }
 
+/*User Profile*/
+
+.main-form {
+    background-color: rgb(77, 177, 91);
+}
+.form h4 {
+    font-style: italic;
+    align-self: flex-start;
+    line-height: initial;
+    padding: 10px;
+}
+
+.form {
+    display: flex;
+    background-color: rgb(255, 255, 191);
+    margin: 10px auto;
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+}
+
+.form input {
+    border-style: none;
+    border-bottom: rgb(77, 177, 91) solid 2px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+
+}
+
+.nacimiento {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    
+}
+
+.nacimiento label {
+    align-self: flex-start;
+    font-size: 15px;
+}
+
+.nacimiento input {
+    margin: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
 
 
+.intereses {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    line-height: 25px;
+}
 
+.intereses h4 {
+      margin-top: 10px;
+}
+
+.intereses input {
+    margin-top: 0px;
+    height: initial;
+    width: 20%;
+}
+
+.checks {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    max-width: 300px;
+}
+.foto label {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.foto input {
+    /* padding: 0px;
+    margin: 5px 0px; */
+    height: 30px;
+    border: none;
+
+}
+
+.passR {
+    text-align: center;
+}
+
+.passR input {
+    width: 70%;
+}
+
+.botones {
+    display: flex;
+    width: 90%;
+}
+
+.botones button{
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    color: white;
+    background-color: rgb(0, 197, 0);
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 1s;
+}
+
+.botones button:hover {
+    background-color: rgb(77, 177, 91);
+}
+
+
+.botones a {
+    color: white;
+}
 
