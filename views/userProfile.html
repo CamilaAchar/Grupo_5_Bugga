@@ -12,16 +12,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet"> 
     <link rel="SHORTCUT ICON" href="/img/icono.png">
 </head>
 <body>
+    <div class="main2">
+        <div class="logo">
+        <img src="/img/logo.jpg" alt="logo comercial">
+        </div>
+        <h4>Terminá de completar tus datos</h4>
 
-    <header>
-        <img src="/img/logo.jpg" alt="logo">
-    </header>
-    <main class="main-form">
         <form action="/register.html" method="POST" class="form">
-            <h4>Terminá de completar tus datos</h4>
+
             <div class="nombre">
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre y Apellido" required minlength="2">
             </div>
@@ -62,10 +64,12 @@
                     <label for="universitarios">Universitarios</label>
                 </div>
             </div>
+
             <div class="foto">
                 <label for="foto">Foto</label>
                 <input type="file" id="foto" name="foto" accept=".jpg">
             </div>
+
             <div class="passR">
                 <input type="password" id="pass" name="pass" required minlength="6" placeholder="Contraseña">
                 <input type="password" id="pass2" name="pass2" required minlength="6" placeholder="Confirmar Contraseña">
@@ -77,12 +81,12 @@
 
             <div class="botones">
                 <button type="submit"><a href="home">Enviar</a></button>
-                <button type="reset">Borrar</button>
+                <button type="reset" style="cursor: pointer;">Borrar</button>
             </div>
 
         </form>
-    </main>
 
+    </div>
 
 </body>
 </html>
