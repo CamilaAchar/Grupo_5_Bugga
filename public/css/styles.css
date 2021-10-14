@@ -4,31 +4,73 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(255, 255, 191);
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     flex-direction: row;
+=======
+    margin-top: 5%;
+    margin-bottom: 30%;
+>>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 a {
     text-decoration: none;
- }
+}
+
+.main {
+    background-color: rgba(255, 255, 191, 0.747);
+     max-width: 276px;
+     margin: 25% auto;
+     border-radius: 15px;
+     box-shadow: 2px 2px 10px rgb(143, 142, 142);
+     transition: box-shadow 1.5s;
+}
+
+.main:hover {
+        box-shadow: 5px 5px 20px rgb(143, 142, 142);
+}
+
+.login {
+    background-color: rgba(255, 255, 191, 0.747);
+     max-width: 276px;
+     margin: 15px auto;
+     border-radius: 15px;
+     box-shadow: 2px 2px 10px rgb(143, 142, 142);
+     transition: box-shadow 1.5s;
+}
+
+.login:hover {
+    box-shadow: 5px 5px 20px rgb(143, 142, 142);
+}
+
 
 .logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+<<<<<<< HEAD
     margin-top: 15px;
+=======
+
+>>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 .logo img {
-    border: solid 10px rgb(0, 197, 0);
+    margin-top: 20px;
 }
 
 h1 {
     text-align: center;
+    max-width: 100px;
+    margin: 15px auto;
+    font-family: 'sans serif';
+
 }
 
-section {
+.registro {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -36,14 +78,24 @@ section {
     font-weight: bold;
 }
 
+.registro input {
+    height: 24px;
+    padding: 5px;
+    margin-left: -5px;
+    border: none;
+    border-bottom: rgb(0, 197, 0) solid 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .mail   {
     text-align: left;
-    margin: 10px auto;
+    margin: 15px auto;
     max-width: 235px;
 
 }
 .mail i {
-    background-color: rgb(0, 197, 0);
+    background-color: rgba(0, 197, 0, 0.767);
     color: rgb(255, 255, 191);
     width: 30px;
     height: 25px;
@@ -51,6 +103,7 @@ section {
     line-height: 25px; 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
+<<<<<<< HEAD
 }
 
 .mail input {
@@ -60,57 +113,38 @@ section {
     border-color: rgb(0, 197, 0);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+=======
+>>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 .pass   {
     text-align: left;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 235px;
     position: relative;
 }
+<<<<<<< HEAD
 
 .pass i {
+=======
+.lock {
+>>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
     background-color: rgb(0, 197, 0);
     color: rgb(255, 255, 191);
     width: 30px;
     height: 25px;
+    padding: 4px;
     text-align: center;
-    line-height: 25px; 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
 }
 
 .ver {
     position: absolute;
-    left: 195px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px; 
-}
-
-.pass .ver {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-
-.pass input {
-    height: 25px;
-    margin-left: -5px;
-    border-style:solid;
-    border-color: rgb(0, 197, 0);
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    padding: 15px;
-    margin: 0px auto;
-    font-size: 10px;
-    font-weight: bold;
+    left: 200px;
+    top: 5px;
+    background-color: white;
+    color: rgb(151, 150, 150) ;
 }
 
 .terminos {
@@ -119,34 +153,210 @@ footer {
     margin: 5px auto;
 }
 
-.terminos p {
-    text-align: left;
-    margin-left: 5px;
-}
-.terminos i {
-    background-color: rgb(255, 255, 191);
-    color: rgb(0, 197, 0);
-    font-size: 15px;
-    width: 14px;
-    height: 16px;
+.registro p {
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
 }
 
-footer button {
+.forgot {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 10px;
+    padding: 15px;
+}
+
+.terminos p {
+    text-align: left; 
+    margin-left: 5px;
+    font-size: 10px;
+    padding: 0px;
+}
+
+.registro button a {
+    color: rgb(255, 255, 191);
+}
+
+.registro button {
+
     width: 100px;
     height: 30px;
-    margin: 10px auto;
+    margin: 15px auto;
     color: rgb(255, 255, 191);
     background-color: rgb(0, 197, 0);
     border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(0, 197, 0);
-    font-size: 15px;
+    border-style: none;
+    transition: background-color 1s;
+ }
+
+ .registro button:hover {
+    background-color: rgb(5, 170, 5);
 }
 
+
+
+/*user profile - Inicio*/
+.main2 {
+    background-color: rgba(255, 255, 191, 0.747);
+    width: 355px;
+    margin: 5% auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgb(143, 142, 142);
+    transition: box-shadow 1.5s;
+}
+
+.main2:hover {
+        box-shadow: 5px 5px 20px rgb(143, 142, 142);
+}
+h4 {
+    text-align: left;
+    font-style: italic;
+    margin: 15px 5px;
+    font-size: 12px;
+    font-family: 'Montserrat', cursive;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    height: 25px;
+    width: 250px;
+    padding: 5px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: rgb(0, 197, 0) solid 1px;
+    border-radius: 5px;
+}
+.nacimiento {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+
+}
+
+.nacimiento label {
+    margin-top: 15px;
+}
+
+.nacimiento input {
+    margin-top: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.intereses {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 200px;
+    line-height: 25px;
+    margin-left: -5px;
+}
+
+.intereses h4 {
+    font-size: 18px;
+}
+
+.intereses input {
+    margin-top: 0px;
+    
+    height: initial;
+    width: 20%;
+}
+
+.checks {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+}
+.foto label {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.foto input {
+    padding: 0px;
+    margin: 5px 0px;
+    height: 30px;
+    border: none;
+}
+
+.passR {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    }
+
+.passR input {
+    margin-top: 10px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+
+.botones button{
+    width: 100px;
+    height: 30px;
+    margin: 20px 30px;
+    color: rgba(255, 255, 191, 0.747);
+    background-color: rgb(0, 197, 0);
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 1s;
+}
+
+<<<<<<< HEAD
 footer button a{
     color: rgb(255, 255, 191);
+=======
+.botones button:hover {
+    background-color: rgb(3, 151, 3)
 }
 
+.botones button a {
+    color: rgba(255, 255, 191, 0.747);
+>>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
+}
+
+/*user profile fin*/
+
+@media (min-width: 361px){
+    .main {
+        margin: 20% auto;
+    }
+    .main2 {
+        margin: 20% auto;
+    }
+}
+
+@media (min-width: 768px){
+    body {
+        background-size: cover;
+}
+
+    .main {
+        margin: 5% auto;
+    }
+
+    .main2 {
+        margin: 5% auto;
+    }
+
+}
 
 /*CSS PARA HOME*/ 
 

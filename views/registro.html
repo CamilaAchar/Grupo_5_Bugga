@@ -12,41 +12,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet"> 
     <link rel="SHORTCUT ICON" href="/img/icono.png">
 </head>
 <body>
-    <header>
+    <div class="main">
+
         <div class="logo">
             <img src="/img/logo.jpg" alt="logo comercial">
         </div>
-        <h1>Bugga</h1>
-    </header>
-    <section>
-        <div class="mail">
-            <p>Email</p>
-            <i class="far fa-envelope"></i> 
-            <input type="text"> 
-        </div>
-        <div class="pass">
-            <p>Contraseña</p>
-            <i class="fas fa-lock"></i>
-            <input type="password">
-            <i class="far fa-eye-slash ver"></i>            
-        </div>
-    </section>
-    <footer>
-        <div class="terminos">
-            <i class="fas fa-check-square"></i>
-            <p>Estoy de acuerdo con los Términos y Condiciones</p>
-        </div>
-        
-        <button><a href="#login">Registrar</a></button>
-        
-        <p>¿Ya tenes una cuenta? 
-            <a href="#login">Ingresá</a>
-        </p>
-    </footer>
+        <h1>Bugga Store</h1>
+    
+        <form action="/register" method="POST" class="registro">
+            <div class="mail">
+                <i class="far fa-envelope"></i> 
+                <input type="email" placeholder="Email" required> 
+            </div>
+            <div class="pass">
+                <i class="fas fa-lock lock"></i>
+                <input type="password" placeholder="Contraseña" required>
+                <i class="far fa-eye-slash ver"></i>           
+            </div>
 
+            <div class="terminos">
+                <input type="checkbox" checked>
+                <p>Estoy de acuerdo con los Términos y Condiciones</p>
+            </div>
+                
+            <button type="submit"><a href="/userProfile">Registrar</a></button>
+
+            <p>¿Ya tenes una cuenta? 
+                <a href="#login">Ingresá</a>
+            </p>
+        </form>    
+
+
+    </div>
 
 </body>
 </html>

@@ -8,7 +8,14 @@ app.use(express.static(publicPath));
 app.listen(3080, ()=> console.log('Servidor OK - Bugga - 3080'));
 
 app.get('/', (req,res)=>res.sendFile(path.join(__dirname, './views/login.html')));
+<<<<<<< HEAD
 app.get('/login', (req,res)=>res.sendFile(path.join(__dirname, './views/registro.html')));
 app.get('/detalleDelProducto', (req,res)=>res.sendFile(path.join(__dirname, './views/productDetail.html')));   
 app.get('/home', (req,res)=>res.sendFile(path.join(__dirname, './views/home.html'))); 
 app.get('/productos', (req,res)=>res.sendFile(path.join(__dirname, './views/productos.html'))); 
+=======
+app.get('/home', (req,res)=>res.sendFile(path.join(__dirname, './views/login.html')));
+app.get('/login', (req,res)=>res.sendFile(path.join(__dirname, './views/login.html')));
+app.get('/register', (req,res)=>res.sendFile(path.join(__dirname, './views/registro.html')));
+app.get('/userProfile', (req,res)=>res.sendFile(path.join(__dirname, './views/userProfile.html')));
+>>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
