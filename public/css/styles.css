@@ -29,20 +29,6 @@ a {
         box-shadow: 5px 5px 20px rgb(143, 142, 142);
 }
 
-.login {
-    background-color: rgba(255, 255, 191, 0.747);
-     max-width: 276px;
-     margin: 15px auto;
-     border-radius: 15px;
-     box-shadow: 2px 2px 10px rgb(143, 142, 142);
-     transition: box-shadow 1.5s;
-}
-
-.login:hover {
-    box-shadow: 5px 5px 20px rgb(143, 142, 142);
-}
-
-
 .logo {
     display: flex;
     flex-wrap: wrap;
