@@ -13,3 +13,5 @@ app.get('/detalleDelProducto', (req,res)=>res.sendFile(path.join(__dirname, './v
 app.get('/home', (req,res)=>res.sendFile(path.join(__dirname, './views/home.html'))); 
 app.get('/productos', (req,res)=>res.sendFile(path.join(__dirname, './views/productos.html'))); 
 
+
+
