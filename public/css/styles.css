@@ -8,12 +8,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Montserrat', sans-serif;
-<<<<<<< HEAD
     flex-direction: row;
-=======
-    margin-top: 5%;
-    margin-bottom: 30%;
->>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 a {
@@ -51,11 +46,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-<<<<<<< HEAD
     margin-top: 15px;
-=======
-
->>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 .logo img {
@@ -103,7 +94,6 @@ h1 {
     line-height: 25px; 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
-<<<<<<< HEAD
 }
 
 .mail input {
@@ -113,8 +103,6 @@ h1 {
     border-color: rgb(0, 197, 0);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-=======
->>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 .pass   {
@@ -123,12 +111,8 @@ h1 {
     max-width: 235px;
     position: relative;
 }
-<<<<<<< HEAD
 
 .pass i {
-=======
-.lock {
->>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
     background-color: rgb(0, 197, 0);
     color: rgb(255, 255, 191);
     width: 30px;
@@ -319,17 +303,8 @@ h4 {
     transition: background-color 1s;
 }
 
-<<<<<<< HEAD
 footer button a{
     color: rgb(255, 255, 191);
-=======
-.botones button:hover {
-    background-color: rgb(3, 151, 3)
-}
-
-.botones button a {
-    color: rgba(255, 255, 191, 0.747);
->>>>>>> bbdcdfaf9a6b87c3ebad9708d4f11874e2d7b505
 }
 
 /*user profile fin*/
@@ -577,6 +552,7 @@ ul{
 /*CSS PARA DETALLE DEL PRODUCTO*/
 
 .bodyDetalle {
+    background-color: #eaeaea;
     font-family: 'Alata', sans-serif;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;

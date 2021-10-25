@@ -1,206 +1,236 @@
+
 <!DOCTYPE html>
 <html lang="es">
-
 <head> <!-- ACA HABRO EL HEAD - CONFIG. -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-       
         <title>Bugga - Home</title>
-        
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="stylesheet" href="/css/styles.css">
-       
+        <link rel="stylesheet" href="/css/normalize.css"> 
+        <link rel="stylesheet" href="/css/home.css">  
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
-      rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Icons"rel="stylesheet">
+        <script src="https://kit.fontawesome.com/edff1df313.js" crossorigin="anonymous"></script>
 </head> <!-- ACA CIERRO EL HEAD - CONFIG. -->
-  
-<body class="bodyHome"> <!-- ACA ABRO EL BODY - CONTENIDO -->
+
+<body> <!-- ACA ABRO EL BODY -->
+      
+<header class="headerHome"> <!-- ACA ABRO EL HEADER - ENCABEZADO -->
     
-    <header class="header-main"> <!-- ACA ABRO EL HEADER - ENCABEZADO -->
+    <section>  
+       <div class="logoHome">
+          <h3>B U G G A<span>logo</span></h3>
+          <img src="#" alt="logo">
+       </div>
+    </section>   
+
+    <section>
+       <nav class="navegaciónHome">
+           <ul class ="menuHome">
+             <li><a href="">Ingresá</a></li>
+             <li><a href="">Registrate</a></li>
+             <li><a href="">Carrito</a></li>
+             <li><a href="">Ayuda</a></li>
+             <li><a href=""></a></li>
+           </ul>
+       </nav>
+    </section>
         
-        <div class="main-header">
-            <div class="main-header-logo-search">
-               <div class="logoHome"> <!-- LOGO -->
-                <img src="./img/Titulo_Home.png" />
-                </div>
+     <section>
+        <div class="buscadorHome">
+          <form class="buscador" action="buscador">
+            <input type="search" placeholder="Autor, Título...">
+            <input type="submit"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+     </section>
 
-                <div class="imgLogo">
-                    <img src="img/corazonx48.png">
-                </div>
-                        
-                <div class="search"> <!-- BUSCADOR -->
-                    <form action="#search">
-                    <input type="text" placeholder="Autor, Título..." >
-                    
-                        <button type="submit"><i class="fas fa-search"></i>
-                        </button>
-                    
-                    </form>
-                </div>
-            </div>  <!-- BUSCADOR -->
+</header> <!-- ACA cierro EL HEADER - ENCABEZADO -->  
 
-            <div> <!-- MENU DESPLEGABLE -->
-                <nav class="menudesplegable">
-                    <ul id="menuDesplegable">
-                      <li><a href="">Autor</a></li>
-                      <li><a href="">País</a></li>
-                      <li><a href="">Categoría</a></li>
-                      <li><a href="">Editorial</a></li>
-                      <li><a href="">Temas</a></li>
-                      <li><a href="">BuggaArt</a></li>
-                    </ul>
-                </nav>
-            </div> <!-- MENU DESPLEGABLE -->
-                
-    </header> <!-- ACA CIERRO EL HEADER - ENCABEZADO -->
-  
-<main> <!-- ACA ABRO EL MAIN - CONTENIDO CENTRAL -->
-   
-   <section> <!-- abro primera sección novedades -->
-     <h1 class="subtituloHome">Novedades de la Semana</h1>
-        <article class="productosHome1">
-           <img src="./img/tx5kwXZTpO.png" />
-            <div class="infoArt"></div>
-             <div class="descripcion">
+<main>
+    <div class="bannerHome">
+       <img src="../public/img/category-books-banner_1920x550_210401.jpeg" alt="banner">
+    </div>
+    
+    <section> <!-- abro primera sección novedades -->
+        <h1>Novedades de la Semana</h1>
+
+          <article class="articulosNovedades">
+              <img src="../public/img/Book Review_ The Visionist.jpeg">
+              <div class="descripcionArtNov">
                 <p>Ray Douglas Bradbury</p>
                 <br>
                 <p>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                 Eos consequatur doloribus iste accusamus voluptas illo natus
+                  Lorem ipsum
                 </p>
                 <br>
                 <p>$6.770</p>
                 <p>40% OFF</p>
                 <br>
-                <span class="material-icons">favorite_border</span>
-                <span class="material-icons">add_shopping_cart</span>
-                    
+               </div>
+               <div class="botonesHome">
+                  <a href="#" class = "material-icons">add_shopping_cart</a> 
+                  <a href="#"class = "material-icons">favorite_border</a> 
+                </div>   
+           </article>
+          
+          <article class="articulosNovedades">
+              <img src="../public/img/The Year After You (eBook).jpeg" />
+              <div class="descripcionArtNov">
+                <p>Ray Douglas Bradbury</p>
+                <br>
+                <p>
+                  Lorem ipsum
+                </p>
+                <br>
+                <p>$6.770</p>
+                <p>40% OFF</p>
+                <br>
             </div>
-        </article>
-       
-    <article class="productosHome1">
-          <img src="./img/tx5kwXZTpO.png" />
-           <div class="infoArt"></div>
-            <div class="descripcion">
-               <p>Ray Douglas Bradbury</p>
-               <br>
-               <p>
-                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                 Eos consequatur doloribus iste accusamus voluptas illo natus
-               </p>
-               <br>
-               <p>$6.770</p>
-               <p>40% OFF</p>
-               <br>
-               <span class="material-icons">favorite_border</span>
-               <span class="material-icons">add_shopping_cart</span>
-           </div>
-    </article>
-       
-        <article class="productosHome1">
-          <img src="./img/tx5kwXZTpO.png" />
-            <div class="infoArt"></div>
-              <div class="descripcion">
-                <p>Ray Douglas Bradbury</p>
-                <br>
-                <p>
-                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                   Eos consequatur doloribus iste accusamus voluptas illo natus
-                </p>
-                <br>
-                <p>$6.770</p>
-                <p>40% OFF</p>
-                <br>
-                <span class="material-icons">favorite_border</span>
-                <span class="material-icons">add_shopping_cart</span>
-          </div>
+            <div class="botonesHome">
+              <a href="#" class = "material-icons">add_shopping_cart</a> 
+              <a href="#"class = "material-icons">favorite_border</a> 
+            </div>   
           </article>
-       
-          <article class="productosHome1">
-            <img src="./img/tx5kwXZTpO.png" />
-            <div class="infoArt">  
-              </div>
-              <div class="descripcion">
-                <p>Ray Douglas Bradbury</p>
-                <br>
-             <p>
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-               Eos consequatur doloribus iste accusamus voluptas illo natus
+
+          <article class="articulosNovedades">
+            <img src="../public/img/The Summer of Broken Things (eBook).jpeg" />
+            <div class="descripcionArtNov">
+              <p>Ray Douglas Bradbury</p>
+              <br>
+              <p>
+               Lorem ipsum
+              </p>
+              <br>
+              <p>$6.770</p>
+              <p>40% OFF</p>
+              <br>
+          </div>
+           <div class="botonesHome">
+              <a href="#" class = "material-icons">add_shopping_cart</a> 
+              <a href="#"class = "material-icons">favorite_border</a> 
+           </div>   
+        </article>
+
+        <article class="articulosNovedades">
+          <img src="../public/img/thesecretgarden.jpeg"/>
+          <div class="descripcionArtNov">
+            <p>Ray Douglas Bradbury</p>
+            <br>
+            <p>
+             Lorem ipsum
             </p>
             <br>
             <p>$6.770</p>
             <p>40% OFF</p>
             <br>
-            <span class="material-icons">favorite_border</span>
-            <span class="material-icons">add_shopping_cart</span>
           </div>
-          </article>
+          <div class="botonesHome">
+            <a href="#" class = "material-icons">add_shopping_cart</a> 
+            <a href="#"class = "material-icons">favorite_border</a> 
+          </div>   
+        </article>
 
-      
-    </section> <!-- cierro primera sección novedades -->
-
-
-<section class="Productos2"> <!-- abro segunda sección más leídos -->
-    <h1 class="subtituloHome">¡Los más elegidos en Bugga!</h1>
-      
-    <article class="productosHome2">
-        <img src="./img/zhQFmEpom2.png" />
-        <div class="infoArt"></div>
-      </article>
-      
-      <article class="productosHome2">
-        <img src="./img/zhQFmEpom2.png"/>
-        <div class="infoArt"></div>
-      </article>
-      
-      <article class="productosHome2">
-        <img src="./img/zhQFmEpom2.png"/>
-        <div class="infoArt"></div>
-      </article>
-
-      <article class="productosHome2">
-        <img src="./img/zhQFmEpom2.png"/>
-        <div class="infoArt"></div>
+       <article class="articulosNovedades">
+         <img src="../public/img/The Official List of Harper’s Fall 2020 YA Book Covers.png" />
+         <div class="descripcionArtNov">
+           <p>Ray Douglas Bradbury</p>
+           <br>
+           <p>
+            Lorem ipsum
+           </p>
+           <br>
+           <p>$6.770</p>
+           <p>40% OFF</p>
+           <br>
+         </div>
+       <div class="botonesHome">
+          <a href="#" class = "material-icons">add_shopping_cart</a> 
+          <a href="#"class = "material-icons">favorite_border</a> 
+       </div>   
       </article>
 
-</section>  <!-- cierro segunda sección más leídos -->
+    <article class="articulosNovedades">
+      <img src="../public/img/The Official List of Harper’s Fall 2020 YA Book Covers.png" />
+      <div class="descripcionArtNov">
+        <p>Ray Douglas Bradbury</p>
+        <br>
+        <p>
+         Lorem ipsum
+        </p>
+        <br>
+        <p>$6.770</p>
+        <p>40% OFF</p>
+        <br>
+      </div>
+      <div class="botonesHome">
+        <a href="#" class = "material-icons">add_shopping_cart</a> 
+        <a href="#"class = "material-icons">favorite_border</a> 
+      </div>   
+    </article>
 
-<section> <!-- abro boton más leídos -->
-<div class="catalogo">
-    <button><a class="catalogo" href="#Catalogo">Ver todos los productos</a></button>        
-  </div>
-</section> <!-- cierro boton más leídos -->
+</section> <!-- cierro primera sección novedades -->
 
-</main> <!-- ACA CIERRO EL MAIN - CONTENIDO CENTRAL -->
+</main> <!-- cierro main -->
 
-<footer> <!-- ACA ABRO EL FOOTER - PIE DE PÁGINA -->
-    <section class="footerHome">
-      
-      <div>
-         
-            <div class="footer-sectionA">
-            <p>Todos los medios de pago</p>
-     </div>   
+<footer class="footerDistribucion"> <!-- ACA ABRO FOOTER -->
 
-    <div class="footer-sectionB">
-        <p>consulta las promociones vigentes </p>
-    </div>
-   
-    <div class="footer-sectionC">
-      <p></p>
-       <span class="material-icons">credit_card</span>
-        <span class="material-icons">credit_card</span>
-        <span class="material-icons">credit_card</span>
-    </div>
+      <div class="footerIzquierda">
 
-  </section>  
-  
-</footer> <!-- ACA CIERRO EL FOOTER - PIE DE PÁGINA -->
+        <h3>B U G G A<span>logo</span></h3>
 
-</body> <!-- ACA CIERRO EL BODY - CONTENIDO -->
+        <p class="footerLinks">
+          <a href="#" class="link-1">Home</a>
+          
+          <a href="#">FAQ</a>
+          
+          <a href="#">Preguntas Frecuentes</a>
+        </p>
 
+        <p class="footerNombre">Bugga © 2021</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>Calle Falsa 123</span> Buenos Aires, Argentina</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+54 000000000</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">info@bugga.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footerDerecha">
+
+        <p class="footerAbout">
+          <span>Sobre B U G G A</span>
+          Lorem ipsum dolor sit amet, consectateur adispicing elit. 
+          Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+        </p>
+
+        <div class="footerIconos">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer> <!-- CIERRO FOOTER -->
+
+</body> <!-- CIERRO BODY -->
 </html>
