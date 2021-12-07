@@ -9,6 +9,8 @@ More Of:
 Respetar la división de tareas
 Reuniones cortas
 Participación en Trello
+Terminar los HTML y CSS faltantes
+Seguimiento y División de las tareas 
 
 Keep Doing:
 Responsabilidad de cada parte
